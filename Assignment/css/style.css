@@ -1,0 +1,28 @@
+body {
+  font-size: 125%;
+  background-color: rgb(193, 187, 187);
+}
+
+/* Header styling */
+header {
+  /* background-color: #949090; */
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header nav a {
+  text-transform: uppercase;
+}
+
+section h2 {
+  background: #158dd3;
+  color: aliceblue;
+}
+
+header,
+footer {
+  background: #615f5f;
+}
