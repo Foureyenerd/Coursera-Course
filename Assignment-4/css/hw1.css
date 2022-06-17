@@ -1,0 +1,129 @@
+body {
+  padding: 1%;
+  margin: 1%;
+  font-size: 125%;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* header styling */
+header {
+  background-color: #a0a0a0;
+  background-image: url(../images/flywheel.jpg);
+  background-size: 100%, 0;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+  text-transform: uppercase;
+}
+
+nav {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 24px;
+  color: #171c7b;
+  text-align: center;
+  text-decoration: none;
+  width: 15%;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-right: 3%;
+  background-color: rgba(255, 255, 255, 0.138);
+}
+a.active {
+  background-color: #fff;
+}
+
+/* main styling */
+main {
+  width: 100%;
+  display: flex;
+}
+
+/* aside styling */
+aside {
+  display: flex;
+  background-color: #139f88;
+  flex-direction: column;
+  width: fit-content;
+  height: 100vh;
+  padding: 2%;
+}
+
+aside img {
+  width: 175px;
+  height: 125px;
+  border: #333 2px solid;
+  margin: 12px 0;
+}
+
+/* section styling */
+section {
+  padding: 8px;
+}
+
+section a {
+  background-color: #a0a0a0;
+}
+
+/* table styling */
+
+section table {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 7%;
+  width: 75%;
+}
+
+table tr {
+  background: rgba(153, 199, 149, 0.729);
+  font-size: 17px;
+  margin: 2%;
+}
+
+table tr th {
+  color: #ffffff;
+  background: #93ce1c;
+  padding: 15px;
+  text-align: center;
+  border-bottom: #6fe066 2px solid;
+  border-radius: 5px 5px 0 0;
+  background-image: (#93ce1c, #749c25, #a0db2a);
+  background-image: -webkit-linear-gradient(#93ce1c, #749c25, #a0db2a);
+  background-image: -moz-linear-gradient(#93ce1c, #749c25, #a0db2a);
+  background-image: -o-linear-gradient(#93ce1c, #749c25, #a0db2a);
+}
+
+tr th:first-child {
+  text-align: left;
+}
+
+table td {
+  padding: 12px;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 2px;
+  text-shadow: 1px 1px #fff;
+}
+
+/* changing opacity during hover */
+table td:hover {
+  opacity: 1;
+}
+
+td:first-child {
+  text-align: left;
+}
