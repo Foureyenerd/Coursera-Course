@@ -1,0 +1,48 @@
+/* Styling body */
+
+body {
+  font-size: 150%;
+  padding: 2px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+/* Nav bar styling */
+nav {
+  box-sizing: border-box;
+  border: #000000 2px solid;
+  box-sizing: border-box;
+  width: 50%;
+  height: 95px;
+  overflow: auto;
+  padding-left: 1%;
+}
+
+/* Styling link */
+
+nav a {
+  color: #fff;
+  text-align: center;
+  background: #159962;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 55px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 1% 2%;
+  padding: 1% 5%;
+}
+
+/* current page link styling */
+
+a.btn {
+  background-color: #0b99a9;
+}
+
+/* When user over on link */
+
+nav a:hover {
+  border-radius: 0;
+  color: #000000;
+  background: #cc4432;
+}
