@@ -9,8 +9,8 @@
   </head>
   <body>
     <section>
-      <button ondblclick="updateFirst()">First</button>
-      <button ondblclick="updateSecond()">Second</button>
+      <button ondblclick="updateFirst()" onmouseout="unDO()">First</button>
+      <button ondblclick="updateSecond()" onmouseout="unDO()">Second</button>
       <p>This code shouldn't change.</p>
       <p id="stuff" class="stuff">This will change.</p>
       <p>This shouldn't change either.</p>
