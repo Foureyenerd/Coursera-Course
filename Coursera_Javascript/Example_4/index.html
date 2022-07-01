@@ -9,9 +9,11 @@
   </head>
   <body>
     <section>
-      <button ondblclick="updateFirst()" onmouseout="unDO()">First</button>
-      <button ondblclick="updateSecond()" onmouseout="unDO()">Second</button>
+      <button onclick="updateFirst()" onmouseout="unDO()">First</button>
+      <button onclick="myName()" onmouseout="unDO()">Click Me!</button>
+      <button onclick="updateSecond()" onmouseout="unDO()">Second</button>
       <p>This code shouldn't change.</p>
+      <p id="prom" class="stuff name">Your name</p>
       <p id="stuff" class="stuff">This will change.</p>
       <p>This shouldn't change either.</p>
     </section>
