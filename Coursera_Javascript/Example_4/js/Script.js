@@ -5,3 +5,7 @@ function updateFirst() {
 function updateSecond() {
   document.getElementById("stuff").innerHTML = "Second Button clicked";
 }
+
+function unDO() {
+  document.getElementById("stuff").innerHTML = "This will change.";
+}
