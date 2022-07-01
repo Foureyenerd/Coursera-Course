@@ -34,7 +34,7 @@ p.name {
   background-color: #008000;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   p {
     width: 100%;
     border: #000 2px solid;
