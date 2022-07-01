@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  font-size: 150%;
+  padding-top: 2%;
+}
+
+button {
+  background: #23d7dd;
+  margin-right: 4px;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: #000 2px outset;
+}
+
+p {
+  text-align: center;
+  width: 25%;
+  border: #000 2px solid;
+}
+
+p.stuff {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background: rgb(254, 2, 2);
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    width: 100%;
+    border: #000 2px solid;
+  }
+}
