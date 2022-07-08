@@ -1,0 +1,46 @@
+/* Styling the body element */
+body {
+  padding: 1%;
+  font-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Styling the content section */
+.content {
+  width: fit-content;
+}
+
+/* Styling the label */
+label {
+  font-size: 1.2rem;
+}
+
+/* Styling the input */
+input {
+  width: 10rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border: #000 2px solid;
+}
+
+/* Styling the paragraph */
+button {
+  color: #fff;
+  background: #000;
+  padding: 0.5rem;
+}
+
+/* Styling the total paragraph */
+p.total {
+  color: #09d059;
+  font-weight: 600;
+}
+
+/* The responsiveness of the page */
+@media only screen and (max-width: 600px) {
+  input {
+    /* margin-right: 20rem; */
+    margin-bottom: 1rem;
+  }
+}
